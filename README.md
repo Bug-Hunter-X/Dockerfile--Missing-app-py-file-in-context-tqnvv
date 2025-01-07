@@ -1,0 +1,1 @@
+This repository contains a Dockerfile with a common error: a missing file in the context. The Dockerfile attempts to run a Python script (app.py), but it fails because the file is not copied into the image. The solution adds a COPY instruction to include the app.py file in the image.
